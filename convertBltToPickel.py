@@ -9,7 +9,7 @@ import csv
 
 def convert(blt_file, outfile):
 
-    tagCategory = ["duplicate_announce", "new_prefix", "attribute_change", "path_change", "community_change", "duplicate_withdraw", "prepending_add", "prepending_change", "prepending_remove", "path_switching", "origin_change", "remove_prefix", "other_change"]
+    tagCategory = ["duplicate_announce", "new_prefix", "transit_change", "community_change", "duplicate_withdrawal", "prepending_add", "prepending_change", "prepending_remove", "path_switching", "origin_change", "remove_prefix", "other_change"]
 
     pickleDictionary = dict()           # pickleDictionary[tagName][time] = [value]
     for tn in tagCategory:
@@ -64,14 +64,12 @@ def convert(blt_file, outfile):
                 preTime = timeStamp
         
         
-    pkl_peer = outfile + "_peers.pkl"
-    with open(pkl_peer, mode = "wb") as f:
+    with open(outfile, "wb") as f:
         pickle.dump(pickleDictionary, f)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("-b", "--blt_file", help = "import blt file", nargs = "*")
-    parser.add_argument("-o", "--outfile", help="output file")
-
+    parser.add_argument("blt_file", help = "import blt file", nargs = "*")
     args = parser.parse_args()
-    convert(args.blt_file, args.outfile)
+    pickle_file = args.blt_file[0].split(".")[0] + ".pkl"
+    convert(args.blt_file, pickle_file)
