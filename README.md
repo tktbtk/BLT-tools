@@ -20,7 +20,7 @@ python bltReader.py -v 4 -s 20170825  -f 20170826 -c route-views.linx -o ~/test/
 python convert_blt_to_pickle.py ~/test/20170825_GoogleLeak/20170825_GoogleLeak.blt
 ```
 
-+ Then you can draw the figure run below command.
++ Then you can draw the figure running below command.
 ```bash:
 python anomaly_detector.py ~/test/20170825_GoogleLeak/20170825_GoogleLeak.pkl
 ```
