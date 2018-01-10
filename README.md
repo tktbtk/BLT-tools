@@ -55,4 +55,4 @@ python convert_blt_to_pickle.py ~/test/20170601_SyriaOutage/20170601_SyriaOutage
 ```bash:
 python anomaly_detector.py ~/test/20170601_SyriaOutage/20170601_SyriaOutage_SY.pkl
 ```
-![20170601_syriaoutage_sy](https://user-images.githubusercontent.com/20659074/34763505-cfcd5338-f62e-11e7-829e-f9e402b103b4.jpg)
+![20170601_syria_prefix-eps-converted-to.pdf](https://github.com/tktbtk/BLT-tools/files/1618066/20170601_syria_prefix-eps-converted-to.pdf)
