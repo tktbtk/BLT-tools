@@ -1,6 +1,6 @@
 # BLT-tools
 These tools are made as applications of BLT (https://github.com/romain-fontugne/BLT)
-which can classify messages based on the proposed method and attach the labels to BGP messages.
+which can classify messages based on the proposed taxonomy and attach the labels to BGP messages.
 You can detect routing anomalies easily using these tools.
 
 ## Example
