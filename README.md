@@ -25,7 +25,7 @@ python convert_blt_to_pickle.py ~/test/20170825_GoogleLeak/20170825_GoogleLeak.b
 ```bash:
 python anomaly_detector.py ~/test/20170825_GoogleLeak/20170825_GoogleLeak.pkl
 ```
-<img src="https://user-images.githubusercontent.com/20659074/34763516-d9584fca-f62e-11e7-83cd-66f1b32ad37a.jpg" width="720">
+<img src="https://user-images.githubusercontent.com/20659074/34763516-d9584fca-f62e-11e7-83cd-66f1b32ad37a.jpg" width="480">
 
 ### 2. Monitoring local routing changes
 Second example is an outage in Syria that coincide with national examination in that country on June 1st 2017.
@@ -55,4 +55,4 @@ python convert_blt_to_pickle.py ~/test/20170601_SyriaOutage/20170601_SyriaOutage
 ```bash:
 python anomaly_detector.py ~/test/20170601_SyriaOutage/20170601_SyriaOutage_SY.pkl
 ```
-<img src="https://user-images.githubusercontent.com/20659074/34763505-cfcd5338-f62e-11e7-829e-f9e402b103b4.jpg" width="720">
+<img src="https://user-images.githubusercontent.com/20659074/34763505-cfcd5338-f62e-11e7-829e-f9e402b103b4.jpg" width="480">
