@@ -25,7 +25,7 @@ python convert_blt_to_pickle.py ~/test/20170825_GoogleLeak/20170825_GoogleLeak.b
 ```bash:
 python anomaly_detector.py ~/test/20170825_GoogleLeak/20170825_GoogleLeak.pkl
 ```
-[20170825_GoogleLeak-eps-converted-to.pdf](https://github.com/tktbtk/BLT-tools/files/1618071/20170825_GoogleLeak-eps-converted-to.pdf)
+![20170825_GoogleLeak-eps-converted-to.pdf](https://github.com/tktbtk/BLT-tools/files/1618071/20170825_GoogleLeak-eps-converted-to.pdf)
 
 
 ### 2. Monitoring local routing changes
@@ -56,4 +56,4 @@ python convert_blt_to_pickle.py ~/test/20170601_SyriaOutage/20170601_SyriaOutage
 ```bash:
 python anomaly_detector.py ~/test/20170601_SyriaOutage/20170601_SyriaOutage_SY.pkl
 ```
-[20170601_syria_prefix-eps-converted-to.pdf](https://github.com/tktbtk/BLT-tools/files/1618066/20170601_syria_prefix-eps-converted-to.pdf)
+![20170601_syria_prefix-eps-converted-to.pdf](https://github.com/tktbtk/BLT-tools/files/1618066/20170601_syria_prefix-eps-converted-to.pdf)
